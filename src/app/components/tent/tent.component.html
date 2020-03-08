@@ -1,0 +1,3 @@
+<p>tent works!</p>
+<app-tent-table [data]="data" (selectedTent)="showSelectedTent($event)"></app-tent-table>
+<app-selected-tent *ngIf="selectedTent" [selectedTent]="selectedTent"></app-selected-tent>
